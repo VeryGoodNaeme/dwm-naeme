@@ -27,7 +27,7 @@ Patches included:
 https://dwm.suckless.org/patches/autostart/  
 https://dwm.suckless.org/patches/dynamicscratchpads/  
 https://dwm.suckless.org/patches/statusallmons/  
-https://dwm.suckless.org/patches/alwayscenter/
+https://dwm.suckless.org/patches/alwayscenter/  
 A modified version of https://dwm.suckless.org/patches/uselessgap/ to add gaps and borders with only one window
 
 Color scheme:  
