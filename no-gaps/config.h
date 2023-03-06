@@ -71,6 +71,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "kitty", NULL };
 static const char *roficmd[] = { "rofi", "-show", "drun", NULL };
 static const char *firefoxcmd[] = {"firefox", NULL};
+static const char *rangercmd[] = {"kittyranger", NULL};
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
@@ -97,6 +98,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_z,      tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_x,      tagmon,         {.i = +1 } },
 	{MODKEY,			XK_w,	   spawn,          {.v = firefoxcmd}},
+	{MODKEY,                        XK_e,	  spawn,          {.v = rangercmd}},
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
