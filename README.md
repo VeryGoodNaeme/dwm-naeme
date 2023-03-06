@@ -2,15 +2,13 @@
 Installation without gaps
 ```bash
 git clone https://github.com/verygoodnaeme/dwm-naeme
-cd dwm-naeme
-cd no-gaps
+cd dwm-naeme/no-gaps
 sudo make install
 ```
 Installation with gaps  
 ```bash
 git clone https://github.com/verygoodnaeme/dwm-naeme
-cd dwm-naeme
-cd gaps
+cd dwm-naeme/gaps
 sudo make install
 ```
 If you use a display manager add the following to /usr/share/xsessions/dwm.desktop
