@@ -1,4 +1,7 @@
 # dwm-naeme
+
+Dependencies: Rofi, Alacritty, Flameshot, Ranger
+
 Installation without gaps
 ```bash
 git clone https://github.com/verygoodnaeme/dwm-naeme
@@ -11,6 +14,7 @@ git clone https://github.com/verygoodnaeme/dwm-naeme
 cd dwm-naeme/gaps
 sudo make install
 ```
+
 If you use a display manager add the following to /usr/share/xsessions/dwm.desktop
 ```bash
 [Desktop Entry]
