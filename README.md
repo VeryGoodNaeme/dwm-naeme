@@ -5,13 +5,13 @@ Dependencies: Rofi, Alacritty, Flameshot, Ranger
 Installation without gaps
 ```bash
 git clone https://github.com/verygoodnaeme/dwm-naeme
-cd dwm-naeme/no-gaps
+cd dwm-naeme/generic/no-gaps
 sudo make install
 ```
 Installation with gaps  
 ```bash
 git clone https://github.com/verygoodnaeme/dwm-naeme
-cd dwm-naeme/gaps
+cd dwm-naeme/generic/gaps
 sudo make install
 ```
 
